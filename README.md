@@ -1,17 +1,37 @@
+# Security Hub – AI-Powered Web Application
 
-# Run and deploy your AI Studio app
+A modern, full-stack Node.js application deployed on **Google Cloud Run**, designed with security-first principles and powered by **Google Gemini API**.
 
-This contains everything you need to run your app locally.
+🔗 **Live App:** https://security-hub-922634109001.us-west1.run.app
 
-View your app in AI Studio: https://ai.studio/apps/9863b2a4-5eab-4bdb-b640-8eb691607f5d
+---
 
-## Run Locally
+## 🚀 Tech Stack
 
-**Prerequisites:**  Node.js
+- **Frontend / Backend:** Node.js (Full-stack)
+- **AI Engine:** Google Gemini API
+- **Deployment:** Google Cloud Run (Serverless)
+- **Containerization:** Docker
+- **Cloud Build:** Automated builds
+- **Hosting:** HTTPS (Managed by Google Cloud)
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 📦 Prerequisites
+
+Make sure you have the following installed:
+
+- **Node.js** (v18+ recommended)
+- **npm**
+- **Google Cloud SDK (gcloud)** – for deployment
+
+---
+
+## 🧑‍💻 Run Locally
+
+Follow these steps to run the app on your local machine.
+
+### 1️⃣ Clone the repository
+```bash
+git clone <your-repo-url>
+cd <your-project-folder>
